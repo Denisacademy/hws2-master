@@ -1,0 +1,53 @@
+.greetingForm {
+  margin: 70px 0 50px 0;
+}
+
+.inputAndButtonContainer {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+.error {
+  color: red;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.input {
+  height: 20px;
+}
+
+.input:focus {
+  /* border: 1px solid red; */
+  outline: none;
+}
+
+.errorInput {
+  border: 1px solid red;
+}
+
+.button {
+  background: #0066cc;
+  height: 20px;
+  color: white;
+  border: none;
+}
+
+.button:focus {
+}
+
+.button:active {
+}
+
+.button:disabled {
+  background: #80b2e5;
+}
+
+.text {
+  color: rgb(165, 165, 165);
+}
+
+.greeting {
+}

@@ -1,0 +1,13 @@
+.App {
+  --header_height: 60px;
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.hw {
+}
+
+.hwTitle {
+  font-weight: bold;
+}
